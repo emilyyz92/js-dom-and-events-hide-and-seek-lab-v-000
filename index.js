@@ -15,5 +15,5 @@ const increaseRankBy = function(n) {
   for (let i=0; i< list.length; i++) {
     list[i].innerHTML += parseInt(n)
   }
-  return list;
+  return list
 }
